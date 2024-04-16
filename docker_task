@@ -1,0 +1,4 @@
+sudo -s
+docker run pandas/pandas:pip-all
+docker exec -it <container id> /bin/bash
+ll
